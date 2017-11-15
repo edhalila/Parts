@@ -1,0 +1,74 @@
+h1, h2 {
+	font-size: 40px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: serif;
+	color: black;
+	letter-spacing: -0.01em;
+	line-height: 40px;
+	text-align: left; 
+
+	}
+
+body { 
+		margin: 50px 10px;
+	}
+
+nav { 
+		position: fixed;
+		top: 20px;
+	}
+
+p {
+	font-size: 40px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: serif;'Pacifico', cursive;
+	color: black;
+	letter-spacing: -0.01em;
+	line-height: 40px;
+	text-align: right; 
+
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		font-family: serif; 
+		}
+
+	nav li { 
+		display: inline-block; /*  */
+	}
+
+	nav a {
+		text-decoration: none;
+		padding: 10px;
+		background-color: black;
+		color: white;
+	}
+
+	nav a.active { 
+		background-color: aquamarine;
+		color: black;
+		}
+
+
+	nav a:hover { 
+		background-color: deepskyblue;
+		box-shadow: 5px 5px 10px black;
+	}
+
+	img { 
+		float:right;
+		width: 400px;
+		transition: transform 0.5s;
+	}
+
+	img:hover { 
+		box-shadow: 5px 5px 20px black;
+		transform: scale(1.1); 
+	}
+
+

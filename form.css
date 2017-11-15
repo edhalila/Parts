@@ -1,0 +1,36 @@
+body {background-color: yellow;
+	font-style: italic;
+	font-weight: bold;
+
+} 
+
+input[type="text"] {
+	
+	width: 300px;
+	height: 20px;
+	border: 2px solid red;
+	font-size: 30px;
+	}
+
+input[type="submit"]  {
+	font-weight: bold;
+	background-color: orange;
+	color: white;
+	padding: 10px 20px;
+}
+
+input[type="submit"]:hover  {
+		background-color: aqua;
+}	
+
+textarea {
+	width: 300px;
+	height: 150px;
+	border: 2px solid blue;
+
+} 
+[placeholder] {
+	font-size: 30px;} 
+
+input: focus, textarea: focus {
+	background: 30px;}
